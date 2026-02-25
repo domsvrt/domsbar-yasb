@@ -120,7 +120,7 @@
   font-size: 14px;
   font-weight: bold;
   color: #e5e7eb;
-  margin-right: 15px;
+  margin-right: 12px;
   padding-left: 6px;
 }
 .cpu-widget .icon {
@@ -129,6 +129,7 @@
   font-size: 16px;
   color: #e5e7eb;
   margin-right: 6px;
+  margin-left: 12px;
 }
 
 /*AUDIO WIDGET*/
@@ -403,4 +404,23 @@
   font-size: 14px;
   font-weight: bold;
   padding-right: 8px;
+}
+
+/*MEMORY WIDGET*/
+.memory-widget {
+  border: 1px solid #8dbcff;
+  background-color: #18181b;
+  border-radius: 6px;
+  margin-right: 2px;
+  padding: 0 12px;
+}
+.memory-widget .widget-container .icon {
+  font-size: 16px;
+  margin-right: 12px;
+}
+.memory-widget .label {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e5e7eb;
 }
