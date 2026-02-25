@@ -1,98 +1,70 @@
+/* GLAZEWM TILING DIRECTION WIDGET */
+.glazewm-tiling-direction {
+  background-color: #18181b;
+  padding: 0 6px;
+  border: 1px solid #8dbcff;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.glazewm-tiling-direction .btn {
+  font-size: 18px;
+  width: 14px;
+  padding: 0 4px 0 4px;
+  color: #CDD6F4;
+  border: #8dbcff;
+}
+
+.glazewm-tiling-direction .btn:hover {
+  background-color: #727272;
+}
+/* GLAZEWM WORKSPACES */
+.glazewm-workspaces {
+  margin: 0;
+}
+
+.glazewm-workspaces .ws-btn {
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 2px;
+  border-radius: 6px;
+  color: #8dbcff;
+}
+
+.glazewm-workspaces .ws-btn.populated {
+  color: #e5e7eb;
+}
+
+.glazewm-workspaces .ws-btn.active_populated,
+.glazewm-workspaces .ws-btn.active_empty {
+  color: #18181b;
+  background-color: #8dbcff;
+  border-radius: 6px;
+}
+
+.glazewm-workspaces .ws-btn.active_populated {
+  border: 1px solid #8dbcff;
+}
+
+.glazewm-workspaces .ws-btn:hover {
+  background-color: #18181b;
+  border: 1px solid  ;
+  color: #e5e7eb;
+  border-radius: 6px;
+}
+
 /*GENERAL CONFIGRATIONS*/
 .widget .icon {
   font-size: 16px;
 }
 
-/*KOMOREBI LAYOUT*/
-.komorebi-active-layout .label {
-  border: 1px solid #18181b;
-  background-color: #e5e7eb;
-  color: #18181b;
-  font-family: "Segoe UI Fluent";
-  font-size: 16px;
-  font-weight: bold;
-  padding-right: 10px;
-  padding-left: 8px;
-  border-radius: 6px;
-  margin-left: 4px;
-}
-.komorebi-layout-menu {
-  border : 1px solid #58585A;
-  background-color: #18181b;
-  color: #e5e7eb;
-  border-radius: 6px;
-}
-.komorebi-layout-menu .menu-item {
-  padding: 4px 16px;
-  font-size: 14px;
-  color: #e5e7eb;
-}
-.komorebi-layout-menu .menu-item-icon {
-  color: #e5e7eb;
-  font-size: 16px;
-}
-.komorebi-layout-menu .menu-item-text {
-  font-family: 'Arial';
-  padding-left: 4px;
-  font-size: 14px;
-  font-weight: bold;
-}
-.komorebi-layout-menu .menu-item:hover {
-  background-color: #58585A;
-  color: #18181b;
-}
-.komorebi-layout-menu .separator {
-  max-height: 1px;
-  background-color: #58585A;
-}
-
-/*KOMOREBI-WORKSPACES*/
-.komorebi-workspaces {
-  background-color: transparent;
-  margin-top: -2px;
-  margin-bottom: 0px;
-  padding-right: 0px;
-  padding-bottom: -2px;
-  padding-left: 0px;
-  border-radius: 6px;
-  margin-right: 2px;
-}
-.komorebi-workspaces .offline-status {
-  border: 1px solid #58585A;
-  color: #1C1B22;
-  font-size: 14px;
-  padding: 0 4px;
-  font-weight: bold;
-}
-.komorebi-workspaces .ws-btn {
-  border: none;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-  background-color: transparent;
-  margin: 0px 0px 2px 2px;
-  padding: 10px;
-  border-radius: 6px;
-  height: 20px;
-  width: 10px;
-}
-.komorebi-workspaces .ws-btn.populated {
-  border: 1px solid #58585A;
-  background-color: #18181b;
-  color: #e5e7eb;
-}
-.komorebi-workspaces .ws-btn.active {
-  border: 1px solid #18181b;
-  background-color: #e5e7eb;
-  color: #18181b;
-  width: 10px;
-  height: 20px;
-  border-radius: 6px;
-}
-
 /*ACTIVE WINDOW*/
 .active-window-widget {
-  background-color: #e5e7eb;
+  background-color: #8dbcff;
   border: 1px solid #18181b;
   padding-right: 10px;
   padding-left: 10px;
@@ -113,7 +85,7 @@
   background-color: #18181b;
   margin-right: 2px;
   border-radius: 6px;
-  border: 1px solid #58585A;
+  border: 1px solid #8dbcff;
 }
 .systray .button {
   background: transparent;
@@ -135,35 +107,9 @@
   border-radius: 1px;
 }
 
-/*TRAFFIC*/
-.traffic-widget .icon {
-  font-family: "Segoe Fluent Icons";
-  background-color: #18181b;
-  border: 1px solid #58585A;
-  color: #e5e7eb;
-  font-weight: bold;
-  font-size: 16px;
-  padding-right: 10px;
-  padding-left: 10px;
-  border-radius: 6px;
-  margin-right: 2px;
-}
-.traffic-widget .label {
-  border: 1px solid #18181b;
-  background-color: #e5e7eb;
-  color: #18181b;
-  margin-right: 4px;
-  border-radius: 6px;
-  padding-right: 10px;
-  padding-left: 10px;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 /*CPU*/
 .cpu-widget {
-  border: 1px solid #58585A;
+  border: 1px solid #8dbcff;
   background-color: #18181b;
   border-radius: 6px;
   margin-right: 2px;
@@ -173,7 +119,7 @@
   font-size: 14px;
   font-weight: bold;
   color: #e5e7eb;
-  margin-right: 15px;
+  margin-right: 12px;
   padding-left: 6px;
 }
 .cpu-widget .icon {
@@ -182,15 +128,15 @@
   font-size: 16px;
   color: #e5e7eb;
   margin-right: 6px;
+  margin-left: 12px;
 }
 
 /*AUDIO WIDGET*/
-.volume-widget {
-  border: 1px solid #58585A;
-  padding-right: 10px;
-  padding-left: 10px;
+/*.volume-widget {
+  border: 1px solid #8dbcff;
   background-color: #18181b;
   border-radius: 6px;
+  padding: 0 12px;
 }
 .volume-widget .icon {
   font-family: "Segoe Fluent Icons";
@@ -204,7 +150,7 @@
   font-weight: bold;
   padding-left: 5px;
   color: #e5e7eb;
-}
+} */
 
 /*AUDIO DROPDOWN*/
 .audio-menu {
@@ -228,10 +174,9 @@
 
 /*CLOCK / CALENDAR WIDGET*/
 .clock-widget {
-  border: 1px solid #58585A;
+  border: 1px solid #8dbcff;
   background-color: #18181b;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 12px;
   margin-right: 2px;
   margin-left: 2px;
   border-radius: 6px;
@@ -245,10 +190,10 @@
 }
 .calendar {
   border: 1px solid #18181b;
-  background-color: #e5e7eb;
+  background-color: #8dbcff;
 }
 .calendar .calendar-table, .calendar .calendar-table::item {
-  background-color: #e5e7eb;
+  background-color: #8dbcff;
   color: #18181b;
   font-family: Arial;
   font-weight: bold;
@@ -286,15 +231,15 @@
 
 /*MEDIA WIDGET*/
 .media-widget {
-  border: 1px solid #18181b;
-  background-color: #e5e7eb;
+  border: 1px solid #8dbcff;
+  background-color: #8dbcff;
   border-radius: 6px;
   padding-left: 12px;
   padding-right: 12px;
 }
 .media-widget .label {
   color: #18181b;
-  background-color: #e5e7eb;
+  background-color: #8dbcff;
   padding: 0 0 0 10px;
   font-family: Arial;
   font-size: 14px;
@@ -312,7 +257,7 @@
 }
 .media-widget .btn.play {
   font-family: "Segoe Fluent Icons";
-  background-color: #e5e7eb;
+  background-color: #8dbcff;
   border-radius: 6px;
   font-size: 14px;
   font-weight: bold;
@@ -321,14 +266,14 @@
 .media-widget .btn.disabled:hover, .media-widget .btn.disabled {
   color: #18181b;
   font-size: 14px;
-  background-color: #e5e7eb;
+  background-color: #8dbcff;
 }
 
 /*MEDIA POPUP*/
 .media-menu {
   min-width: 400px;
   max-width: 400px;
-  background-color: #e5e7eb;
+  background-color: #8dbcff;
   border-radius: 6px;
 }
 .media-menu .thumbnail {
@@ -356,7 +301,7 @@
   font-weight: bold;
   font-family: Arial;
   border-radius: 6px;
-  background-color: #bac2de;
+  background-color: #8dbcff;
   padding: 2px 4px;
 }
 .media-menu .source.firefox {
@@ -432,10 +377,11 @@
 
 /*NOTIFICATIONS*/
 .notification-widget {
-  border: 1px solid #18181b;
-  background-color: #e5e7eb;
+  border: 1px solid #8dbcff;
+  background-color: #8dbcff;
   margin-left: 2px;
   border-radius: 6px;
+  padding: 0 12px;
 }
 .notification-widget .icon {
   font-family: "Segoe Fluent Icons";
@@ -454,4 +400,44 @@
   font-family: Arial;
   font-size: 14px;
   font-weight: bold;
+}
+
+/*MEMORY WIDGET*/
+.memory-widget {
+  border: 1px solid #8dbcff;
+  background-color: #18181b;
+  border-radius: 6px;
+  margin-right: 2px;
+  padding: 0 12px;
+}
+.memory-widget .widget-container .icon {
+  font-size: 16px;
+  margin-right: 12px;
+}
+.memory-widget .label {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e5e7eb;
+}
+
+/*BATTERY WIDGET*/
+.battery-widget {
+  border: 1px solid #8dbcff;
+  background-color: #18181b;
+  border-radius: 6px;
+  margin-right: 2px;
+  padding: 0 12px;
+}
+.battery-widget .icon {
+  font-family: "Segoe Fluent Icons";
+  font-size: 18px;
+  margin-right: 12px;
+  color: #e5e7eb;
+}
+.battery-widget .label {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e5e7eb;
 }
