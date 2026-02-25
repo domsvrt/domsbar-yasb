@@ -21,26 +21,26 @@ bars:
       windows_app_bar: true
       hide_on_fullscreen: true
     dimensions:
-      width: "100%"
+      width: "99%"
       height: 32
     padding:
       top: 4
       left: 0
       bottom: 1
-      right: 4
+      right: 0
     widgets:
       left:
         - "glazewm_workspaces"
         - "active_window"
         - "glazewm_tiling_direction"
       center:
-        []
+        - "media"
       right:
         - "systray"
         - "cpu"
-        - "volume"
+        - "memory"
         - "clock"
-        - "media"
+        - "battery"
         - "notifications"
 widgets:
   glazewm_workspaces:
@@ -112,16 +112,16 @@ widgets:
         bottom: 0
         right: 0
 
-  volume:
-    type: "yasb.volume.VolumeWidget"
-    options:
-      label: "<span>{icon}</span> {level}"
-      volume_icons:
-        - "\ue74f"
-        - "\ue992"
-        - "\ue993"
-        - "\ue994"
-        - "\ue995"
+#  volume:
+#    type: "yasb.volume.VolumeWidget"
+#    options:
+#      label: "<span>{icon}</span> {level}"
+#      volume_icons:
+#        - "\ue74f"
+#        - "\ue992"
+#       - "\ue993"
+#       - "\ue994"
+#        - "\ue995"
 
   clock:
     type: "yasb.clock.ClockWidget"
@@ -201,3 +201,64 @@ widgets:
     start_command: "C:\\Program Files\\glzr.io\\GlazeWM\\glazewm.exe"
     stop_command: "C:\\Program Files\\glzr.io\\GlazeWM\\glazewm.exe command wm-exit"
     reload_command: "C:\\Program Files\\glzr.io\\GlazeWM\\glazewm.exe command wm-exit  && C:\\Program Files\\glzr.io\\GlazeWM\\glazewm.exe"
+
+  memory:
+    type: "yasb.memory.MemoryWidget"
+    options:
+      label: "<span>\uf4bc</span> {virtual_mem_used}/{virtual_mem_total}"
+      label_alt: "<span>\uf4bc</span> VIRT: {virtual_mem_percent}% SWAP: {swap_mem_percent}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "toggle_label"
+        on_middle: "do_nothing"
+        on_right: "do_nothing"
+      memory_thresholds:
+        low: 25
+        medium: 50
+        high: 90
+      histogram_icons:
+        - "\u2581" # 0%
+        - "\u2581" # 10%
+        - "\u2582" # 20%
+        - "\u2583" # 30%
+        - "\u2584" # 40%
+        - "\u2585" # 50%
+        - "\u2586" # 60%
+        - "\u2587" # 70%
+        - "\u2588" # 80%+
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+
+  battery:
+    type: "yasb.battery.BatteryWidget"
+    options:
+      label: "<span>{icon}</span> {percent}%"
+      label_alt: "<span>{icon}</span> {percent}% | {power}W | {time_remaining}"
+      update_interval: 5000
+      time_remaining_natural: False
+      hide_unsupported: True
+      charging_options:
+        icon_format: "{charging_icon}"
+        blink_charging_icon: true
+        blink_interval: 500
+      status_thresholds:
+        critical: 10
+        low: 25
+        medium: 75
+        high: 95
+        full: 100
+      status_icons:
+        icon_charging: "\uf0e7"
+        icon_critical: "\uf244"
+        icon_low: "\uf243"
+        icon_medium: "\uf242"
+        icon_high: "\uf241"
+        icon_full: "\uf240"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
