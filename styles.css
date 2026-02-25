@@ -1,9 +1,8 @@
 /* GLAZEWM TILING DIRECTION WIDGET */
 .glazewm-tiling-direction {
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  border: px solid #8dbcff;
+  background-color: #18181b;
+  padding: 0 6px;
+  border: 1px solid #8dbcff;
   border-radius: 6px;
   box-sizing: border-box;
 }
@@ -133,7 +132,7 @@
 }
 
 /*AUDIO WIDGET*/
-.volume-widget {
+/*.volume-widget {
   border: 1px solid #8dbcff;
   background-color: #18181b;
   border-radius: 6px;
@@ -151,7 +150,7 @@
   font-weight: bold;
   padding-left: 5px;
   color: #e5e7eb;
-}
+} */
 
 /*AUDIO DROPDOWN*/
 .audio-menu {
@@ -415,8 +414,28 @@
   font-size: 16px;
   margin-right: 12px;
 }
-
 .memory-widget .label {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e5e7eb;
+}
+
+/*BATTERY WIDGET*/
+.battery-widget {
+  border: 1px solid #8dbcff;
+  background-color: #18181b;
+  border-radius: 6px;
+  margin-right: 2px;
+  padding: 0 12px;
+}
+.battery-widget .icon {
+  font-family: "Segoe Fluent Icons";
+  font-size: 18px;
+  margin-right: 12px;
+  color: #e5e7eb;
+}
+.battery-widget .label {
   font-family: Arial;
   font-size: 14px;
   font-weight: bold;
