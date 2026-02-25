@@ -40,8 +40,8 @@ bars:
         - "cpu"
         - "memory"
         - "clock"
-        - "notifications"
         - "battery"
+        - "notifications"
 widgets:
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
