@@ -34,13 +34,12 @@ bars:
         - "active_window"
         - "glazewm_tiling_direction"
       center:
-        []
+        - "media"
       right:
         - "systray"
         - "cpu"
         - "volume"
         - "clock"
-        - "media"
         - "notifications"
 widgets:
   glazewm_workspaces:
