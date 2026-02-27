@@ -5054,3 +5054,105 @@ could not find expected ':'
 2026-02-28 04:47:14,864 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 3147282
 2026-02-28 04:47:14,888 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
 2026-02-28 04:47:14,902 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49295
+2026-02-28 04:52:18,583 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\domsvrt77\.config\yasb\config.yaml
+2026-02-28 04:52:18,630 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-28 04:52:18,634 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\domsvrt77\.config\yasb\styles.css
+2026-02-28 04:52:18,740 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-28 04:52:18,741 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-28 04:52:18,808 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-28 04:52:20,274 [INFO] [MainThread] [root/bar_manager.py:104]: Stopping WindowsNotificationEventListener...
+2026-02-28 04:52:20,275 [INFO] [MainThread] [root/bar_manager.py:104]: Stopping SystemEventListener...
+2026-02-28 04:52:20,278 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-28 04:52:20,279 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCDISPLAY1.json
+2026-02-28 04:52:20,287 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 3147282
+2026-02-28 04:52:20,290 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-28 04:52:20,291 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCLENT23I10V305H7XG.json
+2026-02-28 04:52:20,298 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 3147282
+2026-02-28 04:52:20,304 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 3147282
+2026-02-28 04:52:21,091 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-28 04:52:21,098 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-28 04:52:21,100 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-28 04:52:21,103 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-02-28 04:52:21,356 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-02-28 04:52:21,583 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-28 04:52:21,607 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-28 04:52:27,025 [INFO] [MainThread] [root/bar_manager.py:88]: Starting WindowsNotificationEventListener...
+2026-02-28 04:52:27,034 [INFO] [MainThread] [root/bar_manager.py:88]: Starting SystemEventListener...
+2026-02-28 04:52:27,037 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\domsvrt77\.config\yasb
+2026-02-28 04:52:27,042 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-28 04:52:27,164 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-28 04:52:27,314 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCDISPLAY1.json
+2026-02-28 04:52:27,319 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-28 04:52:27,408 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCLENT23I10V305H7XG.json
+2026-02-28 04:52:28,485 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-28 04:52:28,785 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 1967434
+2026-02-28 04:52:28,806 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-28 04:52:28,818 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49295
+2026-02-28 04:56:14,663 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\domsvrt77\.config\yasb\config.yaml
+2026-02-28 04:56:14,704 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-28 04:56:14,709 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\domsvrt77\.config\yasb\styles.css
+2026-02-28 04:56:14,811 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-28 04:56:14,812 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-28 04:56:14,888 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-28 04:56:16,348 [INFO] [MainThread] [root/bar_manager.py:104]: Stopping WindowsNotificationEventListener...
+2026-02-28 04:56:16,349 [INFO] [MainThread] [root/bar_manager.py:104]: Stopping SystemEventListener...
+2026-02-28 04:56:16,353 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-28 04:56:16,354 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCDISPLAY1.json
+2026-02-28 04:56:16,364 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 1967434
+2026-02-28 04:56:16,366 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-28 04:56:16,367 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCLENT23I10V305H7XG.json
+2026-02-28 04:56:16,376 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 1967434
+2026-02-28 04:56:16,381 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 1967434
+2026-02-28 04:56:16,905 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-28 04:56:16,909 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-28 04:56:16,912 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-28 04:56:16,915 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-02-28 04:56:17,669 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-02-28 04:56:17,921 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-28 04:56:17,926 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-28 04:56:22,198 [INFO] [MainThread] [root/bar_manager.py:88]: Starting SystemEventListener...
+2026-02-28 04:56:22,200 [INFO] [MainThread] [root/bar_manager.py:88]: Starting WindowsNotificationEventListener...
+2026-02-28 04:56:22,223 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\domsvrt77\.config\yasb
+2026-02-28 04:56:22,224 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-28 04:56:22,441 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-28 04:56:22,607 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCDISPLAY1.json
+2026-02-28 04:56:22,612 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-28 04:56:22,673 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCLENT23I10V305H7XG.json
+2026-02-28 04:56:22,843 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-28 04:56:23,103 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 10486644
+2026-02-28 04:56:23,122 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-28 04:56:23,137 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49295
+2026-02-28 04:59:20,992 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\domsvrt77\.config\yasb\config.yaml
+2026-02-28 04:59:21,049 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-28 04:59:21,052 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\domsvrt77\.config\yasb\styles.css
+2026-02-28 04:59:21,154 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-28 04:59:21,155 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-28 04:59:21,269 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-28 04:59:22,804 [INFO] [MainThread] [root/bar_manager.py:104]: Stopping SystemEventListener...
+2026-02-28 04:59:22,805 [INFO] [MainThread] [root/bar_manager.py:104]: Stopping WindowsNotificationEventListener...
+2026-02-28 04:59:22,814 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-28 04:59:22,818 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCDISPLAY1.json
+2026-02-28 04:59:22,836 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 10486644
+2026-02-28 04:59:22,848 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-28 04:59:22,851 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCLENT23I10V305H7XG.json
+2026-02-28 04:59:22,869 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 10486644
+2026-02-28 04:59:22,882 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 10486644
+2026-02-28 04:59:23,454 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-28 04:59:23,459 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-28 04:59:23,461 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-28 04:59:23,463 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-02-28 04:59:23,971 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-02-28 04:59:24,336 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-28 04:59:24,342 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-28 04:59:29,464 [INFO] [MainThread] [root/bar_manager.py:88]: Starting WindowsNotificationEventListener...
+2026-02-28 04:59:29,475 [INFO] [MainThread] [root/bar_manager.py:88]: Starting SystemEventListener...
+2026-02-28 04:59:29,486 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\domsvrt77\.config\yasb
+2026-02-28 04:59:29,486 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-28 04:59:29,619 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-28 04:59:29,793 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCDISPLAY1.json
+2026-02-28 04:59:29,795 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-28 04:59:29,897 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\domsvrt77\AppData\Local\YASB\systray_state_INCLENT23I10V305H7XG.json
+2026-02-28 04:59:30,957 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-28 04:59:31,364 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 3409442
+2026-02-28 04:59:31,387 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-28 04:59:31,405 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49295
